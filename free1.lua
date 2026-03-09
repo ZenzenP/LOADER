@@ -29,7 +29,7 @@ import "android.content.Context"
 import "floating"
 import "layout2"
 require "import"
-import "res/init"
+
 import "android.app.*"
 import "android.os.*"
 import "android.widget.*"
@@ -1077,7 +1077,7 @@ function logo.onClick() --ᴀᴄᴛɪᴠᴇ
   end
   function load()
     require "import"
-    import "res/init"
+    
     for i=1,100 do
       Thread.sleep(40)
       call("increase",tostring(i))
