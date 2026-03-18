@@ -728,6 +728,7 @@ DrawOn.ButtonDrawable.setColorFilter(PorterDuffColorFilter(0xFF830000,PorterDuff
 line_checkbox.ButtonDrawable.setColorFilter(PorterDuffColorFilter(0xFF830000,PorterDuff.Mode.SRC_ATOP));
 health_checkbox.ButtonDrawable.setColorFilter(PorterDuffColorFilter(0xFF830000,PorterDuff.Mode.SRC_ATOP));
 distance_checkbox.ButtonDrawable.setColorFilter(PorterDuffColorFilter(0xFF830000,PorterDuff.Mode.SRC_ATOP));
+name_checkbox.ButtonDrawable.setColorFilter(PorterDuffColorFilter(0xFF830000,PorterDuff.Mode.SRC_ATOP));
 dg1.ButtonDrawable.setColorFilter(PorterDuffColorFilter(0xFF830000,PorterDuff.Mode.SRC_ATOP));
 dg2.ButtonDrawable.setColorFilter(PorterDuffColorFilter(0xFF830000,PorterDuff.Mode.SRC_ATOP));
 dg3.ButtonDrawable.setColorFilter(PorterDuffColorFilter(0xFF830000,PorterDuff.Mode.SRC_ATOP));
