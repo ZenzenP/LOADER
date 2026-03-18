@@ -1,1 +1,1567 @@
-=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
+require "import"
+
+import "android.app.*"
+import "android.os.*"
+import "android.widget.*"
+import "android.view.*"
+
+import "android.net.Uri"
+import "android.graphics.Typeface"
+import "android.content.Intent"
+import "android.text.style.ForegroundColorSpan"
+import "android.graphics.drawable.GradientDrawable"
+import "android.text.SpannableString"
+import "android.view.Gravity"
+import "android.os.Build"
+import "android.app.AlertDialog"
+import "android.view.View"
+import "android.graphics.PorterDuff"
+import "android.text.Spannable"
+import "android.provider.Settings"
+import "android.view.MotionEvent"
+import "java.io.File"
+import "android.graphics.PorterDuffColorFilter"
+import "android.animation.ObjectAnimator"
+import "android.graphics.PixelFormat"
+import "android.media.MediaPlayer"
+import "android.view.WindowManager"
+import "android.content.Context"
+import "floating"
+import "layout2"
+require "import"
+
+import "android.app.*"
+import "android.os.*"
+import "android.widget.*"
+import "android.view.*"
+import "android.net.*"
+import "android.content.*"
+import "android.graphics.*"
+import "android.graphics.drawable.*"
+import "android.provider.*"
+import "com.downloader.*"
+
+
+os.execute("mount -o remount,rw /system")
+os.execute("chmod 000 /system/bin/su")
+os.execute("chmod 000 /system/xbin/su")
+os.execute("chmod 000 /system/bin/debuggerd")
+
+-- 🔊 Global mediaPlayer variable para ma-access sa ibang function
+mediaPlayer = nil
+
+local filePath = activity.getLuaDir() .. "/Audio/Music.mp3"
+
+if File(filePath).exists() then
+  mediaPlayer = MediaPlayer()
+  mediaPlayer.setDataSource(filePath)
+  mediaPlayer.prepare()
+  mediaPlayer.setLooping(false)
+
+  -- 🎵 Mag-start ang music after 2 seconds (2000ms)
+  Handler().postDelayed({
+    run = function()
+      mediaPlayer.start()
+    end
+  }, 2000)
+ else
+  print("❌ MP3 file not found sa: " .. filePath)
+end
+
+-- ✅ SA PINAKAILALIM NG CODE: auto-pause kapag minimized
+function onPause()
+  if mediaPlayer and mediaPlayer.isPlaying() then
+    mediaPlayer.pause()
+  end
+end
+
+
+
+--ONLINE PANEL END HERE
+
+
+activity.setTheme(R.AndLua12)
+
+activity.setContentView(loadlayout(layout2))
+activity.getWindow().addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS).setStatusBarColor(0xFF970000).setNavigationBarColor(0xFF970000);
+grad = GradientDrawable(GradientDrawable.Orientation.BOTTOM_TOP,{0xFF720000, 0xFF000000, 0xFF720000});
+mainbg.setBackground
+(grad)
+Potatophone.setText(""..Build.MODEL)
+
+LayoutVIP=activity.getSystemService(Context.WINDOW_SERVICE)
+HasFocus=false
+WmHz =WindowManager.LayoutParams()
+if Build.VERSION.SDK_INT >= 26 then WmHz.type =WindowManager.LayoutParams.TYPE_APPLICATION_OVERLAY
+ else WmHz.type =WindowManager.LayoutParams.TYPE_SYSTEM_ALERT
+end
+
+WmHz.format =PixelFormat.RGBA_8888
+WmHz.flags=WindowManager.LayoutParams().FLAG_NOT_FOCUSABLE
+WmHz.gravity = Gravity.LEFT| Gravity.TOP
+WmHz.x = 333
+WmHz.y = 333
+WmHz.width = WindowManager.LayoutParams.WRAP_CONTENT
+WmHz.height = WindowManager.LayoutParams.WRAP_CONTENT
+mainWindow = loadlayout(winlay)
+minWindow = loadlayout(minlay)
+
+view=title
+color1 = 0xFFFF0000;
+color2 = 0xff8080FF;
+color3 = 0xff80ffff;
+color4 = 0xff80ff80;
+import "android.animation.ObjectAnimator"
+import "android.animation.ArgbEvaluator"
+import "android.animation.ValueAnimator"
+import "android.graphics.Color"
+colorAnim = ObjectAnimator.ofInt(view,"textColor",{color1, color2, color3,color4})
+colorAnim.setDuration(2000)
+colorAnim.setEvaluator(ArgbEvaluator())
+colorAnim.setRepeatCount(ValueAnimator.INFINITE)
+colorAnim.setRepeatMode(ValueAnimator.REVERSE)
+colorAnim.start()
+
+import "android.view.animation.AlphaAnimation"
+
+
+Alpha=AlphaAnimation(0,1)
+Alpha.setDuration(800)
+
+win_mainview.startAnimation(Alpha)
+
+function closeui.onClick()
+  HasLaunch = false
+  isMax=true
+  LayoutVIP.removeView(mainWindow)
+end
+
+isMax=true
+function changeWindow.onClick()
+  if isMax==false then
+    isMax=true
+    LayoutVIP.removeView(mainWindow)
+    LayoutVIP.addView(minWindow,WmHz)
+   else
+    isMax=false
+    LayoutVIP.removeView(minWindow)
+    LayoutVIP.addView(mainWindow,WmHz)
+  end end
+function Win_minWindow.onClick(v)
+  if isMax==false then
+    isMax=true
+    LayoutVIP.removeView(mainWindow)
+    LayoutVIP.addView(minWindow,WmHz)
+    win_mainview.startAnimation(Alpha)
+   else
+    isMax=false
+    LayoutVIP.removeView(minWindow)
+    LayoutVIP.addView(mainWindow,WmHz)
+    win_mainview.startAnimation(Alpha)
+  end end
+
+function Win_minWindow.OnTouchListener(v,event)
+  if event.getAction()==MotionEvent.ACTION_DOWN then
+    firstX=event.getRawX()
+    firstY=event.getRawY()
+    wmX=WmHz.x
+    wmY=WmHz.y
+   elseif event.getAction()==MotionEvent.ACTION_MOVE then
+    WmHz.x=wmX+(event.getRawX()-firstX)
+    WmHz.y=wmY+(event.getRawY()-firstY)
+    LayoutVIP.updateViewLayout(minWindow,WmHz)
+   elseif event.getAction()==MotionEvent.ACTION_UP then
+  end return false end
+
+function win_move.OnTouchListener(v,event)
+  if event.getAction()==MotionEvent.ACTION_DOWN then
+    firstX=event.getRawX()
+    firstY=event.getRawY()
+    wmX=WmHz.x
+    wmY=WmHz.y
+   elseif event.getAction()==MotionEvent.ACTION_MOVE then
+    WmHz.x=wmX+(event.getRawX()-firstX)
+    WmHz.y=wmY+(event.getRawY()-firstY)
+    LayoutVIP.updateViewLayout(mainWindow,WmHz)
+   elseif event.getAction()==MotionEvent.ACTION_UP then
+  end return true end
+
+
+function start.onClick()
+  Waterdropanimation(start,100)
+  win_mainview.startAnimation(Alpha)
+  if HasLaunch==true then return else
+    if Settings.canDrawOverlays(activity) then else intent=Intent("android.settings.action.MANAGE_OVERLAY_PERMISSION")
+      intent.setData(Uri.parse("package:" .. this.getPackageName())) this.startActivity(intent) end HasLaunch=true
+    if ({pcall(function() LayoutVIP.addView(minWindow,WmHz) end)})
+      [1]==false then end end import "java.io.*" file,err=io.open("/data/data/com.xzykayl.vip.injector/files/xyzxros.lua")
+  if err == nil then
+    _ENV["打开app"]("andlua.layout.vip")
+  end
+end
+
+function game.onClick()
+  Waterdropanimation(game,100)
+  if pcall(function() activity.getPackageManager().getPackageInfo("com.garena.game.codm",0) end) then
+    this.startActivity(activity.getPackageManager().getLaunchIntentForPackage("com.garena.game.codm"))
+    isMax=true
+   else
+    print("CALL OF DUTY MOBILE NOT INSTALLED")
+  end
+end
+
+function exit.onClick()
+  Waterdropanimation(exit,100)
+  os.exit()
+end
+
+task(1000,function()
+  local chec,rot=os.execute("su")
+  if chec==true then
+    rootornot.Text="Root";
+    rootornot.textColor=0xFF00FF00
+   else
+    rootornot.Text="Non Root";
+    rootornot.textColor=0xFF00FF00
+  end
+end)
+
+
+
+function Waterdropanimation(Controls,time)
+  ObjectAnimator().ofFloat(Controls,"scaleX",{0,0,0,0.99999,1}).setDuration(time).start()
+end
+function CircleButtonX(view,InsideColor,radiu,InsideColor1)
+  drawable = GradientDrawable()
+  drawable.setShape(GradientDrawable.RECTANGLE)
+  drawable.setCornerRadii({40, 40, 40, 40, 40, 40, 40, 40})
+  drawable.setColor(InsideColor)
+  drawable.setStroke(4, InsideColor1)
+  view.setBackgroundDrawable(drawable)
+end
+function CircleButtonY(view,InsideColor,radiu,InsideColor1)
+  drawable = GradientDrawable()
+  drawable.setShape(GradientDrawable.RECTANGLE)
+  drawable.setCornerRadii({23, 23, 23, 23, 23, 23, 23, 23})
+  drawable.setColor(InsideColor)
+  drawable.setStroke(5, InsideColor1)
+  view.setBackgroundDrawable(drawable)
+end
+function CircleButtonZ(view,InsideColor,radiu,InsideColor1)
+  drawable = GradientDrawable()
+  drawable.setShape(GradientDrawable.RECTANGLE)
+  drawable.setCornerRadii({10, 10, 10, 10, 10, 10, 10, 10})
+  drawable.setColor(InsideColor)
+  drawable.setStroke(4, InsideColor1)
+  view.setBackgroundDrawable(drawable)
+end
+function CircleButtonAsh(view,Grad,Col,radiu,InsideColor1,Lay)
+  import "android.graphics.drawable.GradientDrawable"
+  drawable = GradientDrawable(GradientDrawable.Orientation.LEFT_RIGHT,{Grad, Col});
+  drawable.setShape(GradientDrawable.RECTANGLE)
+  drawable.setCornerRadii({radiu, radiu, radiu, radiu, radiu, radiu, radiu, radiu})
+  drawable.setStroke(2.1, InsideColor1)
+  view.setBackgroundDrawable(drawable)
+end
+function CircleButtonAa(view,InsideColor,radiu,InsideColor1)
+  import "android.graphics.drawable.GradientDrawable"
+  drawable = GradientDrawable()
+  drawable.setShape(GradientDrawable.RECTANGLE)
+  drawable.setCornerRadii({radiu, radiu, radiu, radiu, radiu, radiu, radiu, radiu})
+  drawable.setColor(InsideColor)
+  drawable.setStroke(3, InsideColor1)
+  view.setBackgroundDrawable(drawable)
+end
+function CircleButtonAsh1(view,Grad,Col,radiu,InsideColor1,Lay)
+  import "android.graphics.drawable.GradientDrawable"
+  drawable = GradientDrawable(GradientDrawable.Orientation.BOTTOM_TOP,{Grad, Col , Grad});
+  drawable.setShape(GradientDrawable.RECTANGLE)
+  drawable.setCornerRadii({radiu, radiu, radiu, radiu, radiu, radiu, radiu, radiu})
+  drawable.setStroke(2.1, InsideColor1)
+  view.setBackgroundDrawable(drawable)
+end
+
+function FontN(FontX,file)
+  FontX.setTypeface(Typeface.createFromFile(File(file)))
+end
+Statuscheat.setTypeface(Typeface.createFromFile(activity.getLuaDir("font/doom.ttf")))
+Safestatus.setTypeface(Typeface.createFromFile(activity.getLuaDir("font/doom.ttf")))
+Devicemodel.setTypeface(Typeface.createFromFile(activity.getLuaDir("font/doom.ttf")))
+Potatophone.setTypeface(Typeface.createFromFile(activity.getLuaDir("font/doom.ttf")))
+Statusroot.setTypeface(Typeface.createFromFile(activity.getLuaDir("font/doom.ttf")))
+rootornot.setTypeface(Typeface.createFromFile(activity.getLuaDir("font/doom.ttf")))
+txtStartCheat.setTypeface(Typeface.createFromFile(activity.getLuaDir("font/doom.ttf")))
+txtStopCheat.setTypeface(Typeface.createFromFile(activity.getLuaDir("font/doom.ttf")))
+test.setTypeface(Typeface.createFromFile(activity.getLuaDir("font/doom.ttf")))
+Oooo.setTypeface(Typeface.createFromFile(activity.getLuaDir("font/doom.ttf")))
+
+
+FontN(int,activity.getLuaDir().."/font/doom.ttf")
+FontN(inti,activity.getLuaDir().."/font/doom.ttf")
+FontN(title,activity.getLuaDir().."/font/doom.ttf")
+
+FontN(antirep,activity.getLuaDir().."/font/doom.ttf")
+FontN(logo,activity.getLuaDir().."/font/doom.ttf")
+FontN(dg1,activity.getLuaDir().."/font/doom.ttf")
+FontN(dg2,activity.getLuaDir().."/font/doom.ttf")
+FontN(dg3,activity.getLuaDir().."/font/doom.ttf")
+FontN(dg4,activity.getLuaDir().."/font/doom.ttf")
+FontN(dg5,activity.getLuaDir().."/font/doom.ttf")
+FontN(dg6,activity.getLuaDir().."/font/doom.ttf")
+FontN(dg7,activity.getLuaDir().."/font/doom.ttf")
+FontN(dg8,activity.getLuaDir().."/font/doom.ttf")
+FontN(dg9,activity.getLuaDir().."/font/doom.ttf")
+FontN(dg10,activity.getLuaDir().."/font/doom.ttf")
+FontN(dg11,activity.getLuaDir().."/font/doom.ttf")
+FontN(dg12,activity.getLuaDir().."/font/doom.ttf")
+FontN(dg13,activity.getLuaDir().."/font/doom.ttf")
+FontN(dg14,activity.getLuaDir().."/font/doom.ttf")
+FontN(dg15,activity.getLuaDir().."/font/doom.ttf")
+FontN(dg16,activity.getLuaDir().."/font/doom.ttf")
+FontN(dg17,activity.getLuaDir().."/font/doom.ttf")
+FontN(dg18,activity.getLuaDir().."/font/doom.ttf")
+FontN(dg19,activity.getLuaDir().."/font/doom.ttf")
+FontN(normal,activity.getLuaDir().."/font/doom.ttf")
+FontN(fast,activity.getLuaDir().."/font/doom.ttf")
+FontN(aimbot_text,activity.getLuaDir().."/font/doom.ttf")
+FontN(snowboard_text,activity.getLuaDir().."/font/doom.ttf")
+
+
+
+
+FontN(loaderserver,activity.getLuaDir().."/font/doom.ttf")
+FontN(loaderonline,activity.getLuaDir().."/font/doom.ttf")
+
+FontN(Menubyp,activity.getLuaDir().."/font/doom.ttf")
+FontN(Menubyp1,activity.getLuaDir().."/font/doom.ttf")
+
+FontN(Oooo,activity.getLuaDir().."/font/doom.ttf")
+
+FontN(Menufeats,activity.getLuaDir().."/font/doom.ttf")
+FontN(Menufeats1,activity.getLuaDir().."/font/doom.ttf")
+
+FontN(showmenu,activity.getLuaDir().."/font/doom.ttf")
+
+FontN(closeui,activity.getLuaDir().."/font/doom.ttf")
+
+FontN(bugcenter,activity.getLuaDir().."/font/doom.ttf")
+FontN(feedback,activity.getLuaDir().."/font/doom.ttf")
+
+FontN(telegram,activity.getLuaDir().."/font/doom.ttf")
+FontN(telegramch,activity.getLuaDir().."/font/doom.ttf")
+FontN(tiktok,activity.getLuaDir().."/font/doom.ttf")
+
+CircleButtonAsh1(closeui,0xFF5C0000,0xFF000000,10,0xFF5C0000,0xFF000000)
+
+CircleButtonAsh1(abcdefg,0xFF520000,0xFF000000,10,0xFF520000,0xFF000000)
+CircleButtonAsh1(game,0xFF520000,0xFF000000,10,0xFF520000,0xFF000000)
+CircleButtonAsh(start,0xA2000000,0xFF700000,10,0xFF000000)
+CircleButtonAsh(exit,0xFF700000,0xA2000000,10,0xFF000000)
+
+CircleButtonAsh(win_mainview,0xFF000000,0xFF520000,10,0xFF000000)
+
+CircleButtonAsh1(logo,0xFF5C0000,0xFF000000,10,0xFF5C0000,0xFF000000)
+CircleButtonAsh1(antirep,0xFF5C0000,0xFF000000,10,0xFF5C0000,0xFF000000)
+CircleButtonAsh1(showmenu,0xFF5C0000,0xFF000000,10,0xFF5C0000,0xFF000000)
+
+CircleButtonAsh1(telegram,0xFF5C0000,0xFF000000,10,0xFF5C0000,0xFF000000)
+CircleButtonAsh1(telegramch,0xFF5C0000,0xFF000000,10,0xFF5C0000,0xFF000000)
+CircleButtonAsh1(tiktok,0xFF5C0000,0xFF000000,10,0xFF5C0000,0xFF000000)
+
+
+showmenu.setText("SHOW FEATURES")
+
+function telegram.onClick()
+  Waterdropanimation(telegram,100)
+  activity.startActivity(Intent(Intent.ACTION_VIEW,Uri.parse("https://t.me/Pogigg2")))
+end
+
+function feedback.onClick()
+  Waterdropanimation(telegram,100)
+  activity.startActivity(Intent(Intent.ACTION_VIEW,Uri.parse("https://t.me/Pogigg2")))
+end
+
+function tiktok.onClick()
+  Waterdropanimation(tiktok,100)
+  activity.startActivity(Intent(Intent.ACTION_VIEW,Uri.parse("tiktok.com/@taizou.modz")))
+end
+
+function telegramch.onClick()
+  Waterdropanimation(telegramch,100)
+  activity.startActivity(Intent(Intent.ACTION_VIEW,Uri.parse("https://t.me/taizoumodz")))
+end
+
+function Oooo.onClick()
+  this.startActivity(activity.getPackageManager().getLaunchIntentForPackage("com.garena.game.codm"));
+end
+
+
+import "android.view.animation.TranslateAnimation"
+
+Sleft=TranslateAnimation(-1000, 0, 0, 0)
+Sleft.setDuration(500)
+Sleft.setFillAfter(false)
+
+Sright=TranslateAnimation(1000, 0, 0, 0)
+Sright.setDuration(500)
+Sright.setFillAfter(false)
+
+Sleft1=TranslateAnimation(-1000, 0, 0, 0)
+Sleft1.setDuration(600)
+Sleft1.setFillAfter(false)
+
+Sright1=TranslateAnimation(1000, 0, 0, 0)
+Sright1.setDuration(600)
+Sright1.setFillAfter(false)
+
+Sleft2=TranslateAnimation(-1000, 0, 0, 0)
+Sleft2.setDuration(700)
+Sleft2.setFillAfter(false)
+
+Sright2=TranslateAnimation(1000, 0, 0, 0)
+Sright2.setDuration(700)
+Sright2.setFillAfter(false)
+
+Sleft3=TranslateAnimation(-1000, 0, 0, 0)
+Sleft3.setDuration(800)
+Sleft3.setFillAfter(false)
+
+Sright3=TranslateAnimation(1000, 0, 0, 0)
+Sright3.setDuration(800)
+Sright3.setFillAfter(false)
+
+Sleft4=TranslateAnimation(-1000, 0, 0, 0)
+Sleft4.setDuration(900)
+Sleft4.setFillAfter(false)
+
+Sright4=TranslateAnimation(1000, 0, 0, 0)
+Sright4.setDuration(900)
+Sright4.setFillAfter(false)
+
+Sleft5=TranslateAnimation(-1000, 0, 0, 0)
+Sleft5.setDuration(1000)
+Sleft5.setFillAfter(false)
+
+Sright5=TranslateAnimation(1000, 0, 0, 0)
+Sright5.setDuration(1000)
+Sright5.setFillAfter(false)
+
+Sleft6=TranslateAnimation(-1000, 0, 0, 0)
+Sleft6.setDuration(1100)
+Sleft6.setFillAfter(false)
+
+Sright6=TranslateAnimation(1000, 0, 0, 0)
+Sright6.setDuration(1100)
+Sright6.setFillAfter(false)
+
+Sleft7=TranslateAnimation(-1000, 0, 0, 0)
+Sleft7.setDuration(1200)
+Sleft7.setFillAfter(false)
+
+Sright7=TranslateAnimation(1000, 0, 0, 0)
+Sright7.setDuration(1200)
+Sright7.setFillAfter(false)
+
+Sleft8=TranslateAnimation(-1000, 0, 0, 0)
+Sleft8.setDuration(1300)
+Sleft8.setFillAfter(false)
+
+Sright8=TranslateAnimation(1000, 0, 0, 0)
+Sright8.setDuration(1300)
+Sright8.setFillAfter(false)
+
+Sleft9=TranslateAnimation(-1000, 0, 0, 0)
+Sleft9.setDuration(1400)
+Sleft9.setFillAfter(false)
+
+Sright9=TranslateAnimation(1000, 0, 0, 0)
+Sright9.setDuration(1400)
+Sright9.setFillAfter(false)
+
+Sleft10=TranslateAnimation(-1000, 0, 0, 0)
+Sleft10.setDuration(1500)
+Sleft10.setFillAfter(false)
+
+Sright10=TranslateAnimation(1000, 0, 0, 0)
+Sright10.setDuration(1500)
+Sright10.setFillAfter(false)
+
+Sleft11=TranslateAnimation(-1000, 0, 0, 0)
+Sleft11.setDuration(1600)
+Sleft11.setFillAfter(false)
+
+Sright11=TranslateAnimation(1000, 0, 0, 0)
+Sright11.setDuration(1600)
+Sright11.setFillAfter(false)
+
+Sleft12=TranslateAnimation(-1000, 0, 0, 0)
+Sleft12.setDuration(1700)
+Sleft12.setFillAfter(false)
+
+Sright12=TranslateAnimation(1000, 0, 0, 0)
+Sright12.setDuration(1700)
+Sright12.setFillAfter(false)
+
+Sleft13=TranslateAnimation(-1000, 0, 0, 0)
+Sleft13.setDuration(1800)
+Sleft13.setFillAfter(false)
+
+Sright13=TranslateAnimation(1000, 0, 0, 0)
+Sright13.setDuration(1800)
+Sright13.setFillAfter(false)
+
+Sleft14=TranslateAnimation(-1000, 0, 0, 0)
+Sleft14.setDuration(1900)
+Sleft14.setFillAfter(false)
+
+Sright14=TranslateAnimation(1000, 0, 0, 0)
+Sright14.setDuration(1900)
+Sright14.setFillAfter(false)
+
+Sleft15=TranslateAnimation(-1000, 0, 0, 0)
+Sleft15.setDuration(2000)
+Sleft15.setFillAfter(false)
+
+Sright15=TranslateAnimation(1000, 0, 0, 0)
+Sright15.setDuration(2000)
+Sright15.setFillAfter(false)
+
+Sleft16=TranslateAnimation(-1000, 0, 0, 0)
+Sleft16.setDuration(2100)
+Sleft16.setFillAfter(false)
+
+Sright16=TranslateAnimation(1000, 0, 0, 0)
+Sright16.setDuration(2100)
+Sright16.setFillAfter(false)
+
+Sleft17=TranslateAnimation(-1000, 0, 0, 0)
+Sleft17.setDuration(2200)
+Sleft17.setFillAfter(false)
+
+Sright17=TranslateAnimation(1000, 0, 0, 0)
+Sright17.setDuration(2200)
+Sright17.setFillAfter(false)
+
+int.setVisibility(View.GONE)
+inti.setVisibility(View.GONE)
+
+dg1.setVisibility(View.GONE)
+dg2.setVisibility(View.GONE)
+dg3.setVisibility(View.GONE)
+dg4.setVisibility(View.GONE)
+dg5.setVisibility(View.GONE)
+dg6.setVisibility(View.GONE)
+dg7.setVisibility(View.GONE)
+dg8.setVisibility(View.GONE)
+dg9.setVisibility(View.GONE)
+dg10.setVisibility(View.GONE)
+dg11.setVisibility(View.GONE)
+dg12.setVisibility(View.GONE)
+dg13.setVisibility(View.GONE)
+dg14.setVisibility(View.GONE)
+dg15.setVisibility(View.GONE)
+dg16.setVisibility(View.GONE)
+dg17.setVisibility(View.GONE)
+dg18.setVisibility(View.GONE)
+dg19.setVisibility(View.GONE)
+normal.setVisibility(View.GONE)
+fast.setVisibility(View.GONE)
+aimbot_text.setVisibility(View.GONE)
+aimbot_seekbar.setVisibility(View.GONE)
+snowboard_text.setVisibility(View.GONE)
+snowboard_seekbar.setVisibility(View.GONE)
+
+
+function showmenu.OnCheckedChangeListener()
+  if showmenu.checked then
+    CircleButtonAsh1(showmenu,0xFF00FF00,0xFF000000,10,0xFF00FF00,0xFF00FF00)
+
+    int.setVisibility(View.VISIBLE)
+    inti.setVisibility(View.VISIBLE)
+
+    DrawOn.setVisibility(View.VISIBLE)
+    line_checkbox.setVisibility(View.VISIBLE)
+    health_checkbox.setVisibility(View.VISIBLE)
+    name_checkbox.setVisibility(View.VISIBLE)
+    distance_checkbox.setVisibility(View.VISIBLE)
+    dg1.setVisibility(View.VISIBLE)
+    dg2.setVisibility(View.VISIBLE)
+    dg3.setVisibility(View.VISIBLE)
+    dg4.setVisibility(View.VISIBLE)
+    dg5.setVisibility(View.VISIBLE)
+    dg6.setVisibility(View.VISIBLE)
+    dg7.setVisibility(View.VISIBLE)
+    dg8.setVisibility(View.VISIBLE)
+    dg9.setVisibility(View.VISIBLE)
+    dg10.setVisibility(View.VISIBLE)
+    dg11.setVisibility(View.VISIBLE)
+    dg12.setVisibility(View.VISIBLE)
+    dg13.setVisibility(View.VISIBLE)
+    dg14.setVisibility(View.VISIBLE)
+    dg15.setVisibility(View.VISIBLE)
+    dg16.setVisibility(View.VISIBLE)
+    dg17.setVisibility(View.VISIBLE)
+    dg18.setVisibility(View.VISIBLE)
+    dg19.setVisibility(View.VISIBLE)
+    normal.setVisibility(View.VISIBLE)
+    fast.setVisibility(View.VISIBLE)
+    aimbot_text.setVisibility(View.VISIBLE)
+    aimbot_seekbar.setVisibility(View.VISIBLE)
+    snowboard_text.setVisibility(View.VISIBLE)
+    snowboard_seekbar.setVisibility(View.VISIBLE)
+
+    int.startAnimation(Sright)
+    inti.startAnimation(Sright)
+    
+    
+    DrawOn.setVisibility(Sright)
+    line_checkbox.setVisibility(Sleft)
+    health_checkbox.setVisibility(Sright)
+    name_checkbox.setVisibility(Sleft)
+    distance_checkbox.setVisibility(Sright)
+    dg1.startAnimation(Sleft)
+    dg2.startAnimation(Sright)
+    dg3.startAnimation(Sleft1)
+    dg4.startAnimation(Sright1)
+    dg5.startAnimation(Sleft2)
+    dg6.startAnimation(Sright2)
+    dg7.startAnimation(Sleft3)
+    dg8.startAnimation(Sright3)
+    dg9.startAnimation(Sleft4)
+    dg10.startAnimation(Sright4)
+    dg11.startAnimation(Sleft5)
+    dg12.startAnimation(Sright5)
+    dg13.startAnimation(Sleft6)
+    dg14.startAnimation(Sright6)
+    dg15.startAnimation(Sleft7)
+    dg16.startAnimation(Sright7)
+    dg17.startAnimation(Sleft8)
+    dg18.startAnimation(Sright8)
+    aimbot_text.startAnimation(Sleft9)
+    aimbot_seekbar.startAnimation(Sright9)
+    snowboard_text.startAnimation(Sleft10)
+    snowboard_seekbar.startAnimation(Sright10)
+    normal.startAnimation(Sleft11)
+    fast.startAnimation(Sright11)
+    dg19.startAnimation(Sleft12)
+   else
+    CircleButtonAsh1(showmenu,0xFF5C0000,0xFF000000,10,0xFF5C0000,0xFF000000)
+    int.setVisibility(View.GONE)
+    inti.setVisibility(View.GONE)
+
+    DrawOn.setVisibility(View.GONE)
+    line_checkbox.setVisibility(View.GONE)
+    health_checkbox.setVisibility(View.GONE)
+    name_checkbox.setVisibility(View.GONE)
+    distance_checkbox.setVisibility(View.GONE)
+    dg1.setVisibility(View.GONE)
+    dg2.setVisibility(View.GONE)
+    dg3.setVisibility(View.GONE)
+    dg4.setVisibility(View.GONE)
+    dg5.setVisibility(View.GONE)
+    dg6.setVisibility(View.GONE)
+    dg7.setVisibility(View.GONE)
+    dg8.setVisibility(View.GONE)
+    dg9.setVisibility(View.GONE)
+    dg10.setVisibility(View.GONE)
+    dg11.setVisibility(View.GONE)
+    dg12.setVisibility(View.GONE)
+    dg13.setVisibility(View.GONE)
+    dg14.setVisibility(View.GONE)
+    dg15.setVisibility(View.GONE)
+    dg16.setVisibility(View.GONE)
+    dg17.setVisibility(View.GONE)
+    dg18.setVisibility(View.GONE)
+    dg19.setVisibility(View.GONE)
+    normal.setVisibility(View.GONE)
+    fast.setVisibility(View.GONE)
+    aimbot_text.setVisibility(View.GONE)
+    aimbot_seekbar.setVisibility(View.GONE)
+    snowboard_text.setVisibility(View.GONE)
+    snowboard_seekbar.setVisibility(View.GONE)
+  end
+end
+
+pg.showPage(0)
+function lobby.onClick()
+  pg.showPage(0)
+end
+function ingame.onClick()
+  pg.showPage(1)
+end
+function other.onClick()
+  pg.showPage(2)
+end
+
+pg.addOnPageChangeListener{
+  onPageScrolled=function(a,b,c)
+  end,
+  onPageSelected=function(page)
+    if page==0 then
+      CircleButtonZ(lobby,0x00000000,10,0x00000000)
+      CircleButtonZ(ingame,0x00000000,10,0x00000000)
+      CircleButtonZ(other,0x00000000,10,0x00000000)
+    end
+    if page==1 then
+      CircleButtonZ(ingame,0x00000000,10,0x00000000)
+      CircleButtonZ(lobby,0x00000000,10,0x00000000)
+      CircleButtonZ(other,0x00000000,10,0x00000000)
+    end
+    if page==2 then
+      CircleButtonZ(other,0x00000000,10,0x00000000)
+      CircleButtonZ(ingame,0x00000000,10,0x00000000)
+      CircleButtonZ(lobby,0x00000000,0,0x00000000)
+    end
+    if page==3 then
+      CircleButtonZ(other,0x00000000,10,0x00000000)
+      CircleButtonZ(ingame,0x00000000,10,0x00000000)
+      CircleButtonZ(lobby,0x00000000,10,0x00000000)
+    end
+  end,
+}
+dg1.ButtonDrawable.setColorFilter(PorterDuffColorFilter(0xFF830000,PorterDuff.Mode.SRC_ATOP));
+dg2.ButtonDrawable.setColorFilter(PorterDuffColorFilter(0xFF830000,PorterDuff.Mode.SRC_ATOP));
+dg3.ButtonDrawable.setColorFilter(PorterDuffColorFilter(0xFF830000,PorterDuff.Mode.SRC_ATOP));
+dg4.ButtonDrawable.setColorFilter(PorterDuffColorFilter(0xFF830000,PorterDuff.Mode.SRC_ATOP));
+dg5.ButtonDrawable.setColorFilter(PorterDuffColorFilter(0xFF830000,PorterDuff.Mode.SRC_ATOP));
+dg6.ButtonDrawable.setColorFilter(PorterDuffColorFilter(0xFF830000,PorterDuff.Mode.SRC_ATOP));
+dg7.ButtonDrawable.setColorFilter(PorterDuffColorFilter(0xFF830000,PorterDuff.Mode.SRC_ATOP));
+dg8.ButtonDrawable.setColorFilter(PorterDuffColorFilter(0xFF830000,PorterDuff.Mode.SRC_ATOP));
+dg9.ButtonDrawable.setColorFilter(PorterDuffColorFilter(0xFF830000,PorterDuff.Mode.SRC_ATOP));
+dg10.ButtonDrawable.setColorFilter(PorterDuffColorFilter(0xFF830000,PorterDuff.Mode.SRC_ATOP));
+dg11.ButtonDrawable.setColorFilter(PorterDuffColorFilter(0xFF830000,PorterDuff.Mode.SRC_ATOP));
+dg12.ButtonDrawable.setColorFilter(PorterDuffColorFilter(0xFF830000,PorterDuff.Mode.SRC_ATOP));
+dg13.ButtonDrawable.setColorFilter(PorterDuffColorFilter(0xFF830000,PorterDuff.Mode.SRC_ATOP));
+dg14.ButtonDrawable.setColorFilter(PorterDuffColorFilter(0xFF830000,PorterDuff.Mode.SRC_ATOP));
+dg15.ButtonDrawable.setColorFilter(PorterDuffColorFilter(0xFF830000,PorterDuff.Mode.SRC_ATOP));
+dg16.ButtonDrawable.setColorFilter(PorterDuffColorFilter(0xFF830000,PorterDuff.Mode.SRC_ATOP));
+dg17.ButtonDrawable.setColorFilter(PorterDuffColorFilter(0xFF830000,PorterDuff.Mode.SRC_ATOP));
+dg18.ButtonDrawable.setColorFilter(PorterDuffColorFilter(0xFF830000,PorterDuff.Mode.SRC_ATOP));
+dg19.ButtonDrawable.setColorFilter(PorterDuffColorFilter(0xFF830000,PorterDuff.Mode.SRC_ATOP));
+normal.ButtonDrawable.setColorFilter(PorterDuffColorFilter(0xFF830000,PorterDuff.Mode.SRC_ATOP));
+fast.ButtonDrawable.setColorFilter(PorterDuffColorFilter(0xFF830000,PorterDuff.Mode.SRC_ATOP));
+
+
+import "java.io.File"
+if os.execute("su") then
+  function patch(路径一)
+    调用路径一=activity.getLuaDir(路径一)
+    os.execute("su -c chmod 777 "..调用路径一)
+    Runtime.getRuntime().exec("su -c "..调用路径一)
+    os.execute("su -c rmdir "..activity.getLuaDir("i-v7a/*"))
+  end
+ else
+  function patch(路径一)
+    调用路径一= activity.getLuaDir(路径一)
+    os.execute("chmod 777 " .. 调用路径一)
+    Runtime.getRuntime().exec("" ..调用路径一)
+    os.execute(" rmdir "..activity.getLuaDir("i-v7a/*"))
+  end
+end
+
+function Waterdropanimation2(Controls,time)
+  ObjectAnimator().ofFloat(Controls,"scaleX",{0,0,0,0.99999,1}).setDuration(time).start()
+end
+function CircleButton(view,InsideColor,radiu,InsideColor1)
+  drawable = GradientDrawable()
+  drawable.setShape(GradientDrawable.RECTANGLE)
+  drawable.setCornerRadii({5, 5, 5, 5, 5, 5, 5, 5})
+  drawable.setColor(InsideColor)
+  drawable.setStroke(4, InsideColor1)
+  view.setBackgroundDrawable(drawable)
+end
+
+function isRootAvailable()
+  local file = io.popen("su -c 'echo root'")
+  if file then
+    local output = file:read("*a")
+    file:close()
+    return output:find("root") ~= nil
+  end
+  return false
+end
+
+
+
+function floatToHex(f)
+  -- Convert a 32-bit float to hex (Little-endian)
+  local packed = string.pack("<f", f)
+  return string.gsub(packed, ".", function(c) return string.format("%02X", string.byte(c)) end)
+end
+
+function float16ToHex(f)
+  -- Convert a 16-bit float to hex
+  local sign = f < 0 and 1 or 0
+  f = math.abs(f)
+
+  local exponent = 0
+  while f >= 2 do
+    f = f / 2
+    exponent = exponent + 1
+  end
+  while f < 1 and f > 0 do
+    f = f * 2
+    exponent = exponent - 1
+  end
+
+  f = f - 1
+  local mantissa = math.floor(f * 1024)
+
+  local exponentBits = (exponent + 15) * 1024
+  local float16 = (sign * 32768) + exponentBits + mantissa
+
+  return string.format("%04X", float16)
+end
+
+-- ENDING LIBBASE NO NEED TO ADD ANY CPP V2 ~ BY @CHOROKZ
+
+-- STARTING ANTI C4DROID ~ BY @CHOROKZ
+function antiC4droid()
+  local targetPackageName = "com.n0n3m4.droidc"
+
+  local activityManager = activity.getSystemService("activity")
+  local runningApps = activityManager.getRunningAppProcesses()
+
+  local isRunning = false
+  if runningApps ~= nil then
+    for i = 0, runningApps.size() - 1 do
+      local appInfo = runningApps.get(i)
+      if appInfo.processName == targetPackageName then
+        isRunning = true
+        break
+      end
+    end
+  end
+
+  if isRunning then
+    idkcstmToast("Error: Cannot attach to mainCode.nil")
+    LayoutVIP.removeView(mainWindow)
+    LayoutVIP.removeView(minWindow)
+  end
+end
+
+-- ENDING ANTI C4DROID ~ BY @CHOROKZ
+
+-- STARTING LIBBASE NO NEED TO ADD ANY CPP V2 ~ BY @CHOROKZ
+local HexPatches = {}
+function HexPatches.MemoryPatch(libName, offset, hexBytes)
+  local pid = getProcessId("com.garena.game.codm")
+
+  if not pid then
+    MD提示("Error: Cannot find game process","#000000","#FFFFFF","9","8")
+    return
+  end
+
+  local mapsPath = "/proc/" .. pid .. "/maps"
+  local memPath = "/proc/" .. pid .. "/mem"
+
+  local startAddr = nil
+  for line in io.lines(mapsPath) do
+    if line:find(libName) then
+      startAddr = tonumber(line:match("^(%x+)-"), 16)
+      break
+    end
+  end
+
+  if not startAddr then
+    MD提示("Error: Cannot find game process","#000000","#FFFFFF","9","8")
+    return
+  end
+
+  local targetAddr = startAddr + offset
+  local memFile = io.open(memPath, "r+b")
+  if not memFile then
+    MD提示("Error: Cannot find game process","#000000","#FFFFFF","9","8")
+    return
+  end
+
+  memFile:seek("set", targetAddr)
+  local patchBytes = {}
+  for byte in hexBytes:gmatch("%x%x") do
+    table.insert(patchBytes, string.char(tonumber(byte, 16)))
+  end
+  memFile:write(table.concat(patchBytes))
+  memFile:close()
+end
+
+function getProcessId(processName)
+  local file = io.popen("pgrep -f " .. processName)
+  if file then
+    local pid = file:read("*a"):match("%d+")
+    file:close()
+    return pid
+  end
+  return nil
+end
+
+--ending..
+
+
+import "java.io.File"
+if os.execute("su") then
+  function patch(路径一, Arg2)
+    killGG();
+    调用路径一=activity.getLuaDir(路径一)
+    os.execute("su -c chmod 777 "..调用路径一)
+    Runtime.getRuntime().exec("su -c "..调用路径一)
+    os.execute("su -c rmdir "..activity.getLuaDir("lib/armeabi-v7a/*"))
+  end
+ else
+  function patch(路径一, Arg2)
+    killGG();
+    调用路径一= activity.getLuaDir(路径一)
+    os.execute("chmod 777 " .. 调用路径一)
+    Runtime.getRuntime().exec("" ..调用路径一)
+    os.execute(" rmdir "..activity.getLuaDir("lib/armeabi-v7a/*"))
+  end
+end
+
+
+
+function antiC4droid()
+  local targetPackageName = "com.n0n3m4.droidc"
+
+  local activityManager = activity.getSystemService("activity")
+  local runningApps = activityManager.getRunningAppProcesses()
+
+  local isRunning = false
+  if runningApps ~= nil then
+    for i = 0, runningApps.size() - 1 do
+      local appInfo = runningApps.get(i)
+      if appInfo.processName == targetPackageName then
+        isRunning = true
+        break
+      end
+    end
+  end
+
+  if isRunning then
+    idkcstmToast("Error: Cannot attach to mainCode.nil")
+    LayoutVIP.removeView(mainWindow)
+    LayoutVIP.removeView(minWindow)
+  end
+end
+
+function idkcstmToast(tttxt)
+  toast=Toast.makeText(activity,tttxt,Toast.LENGTH_SHORT)
+  .setView(loadlayout(cstmToast))
+  .show()
+  SansFont(msg,activity.getLuaDir().."/sans.ttf")
+  msg.setText(tttxt)
+end
+
+function cppPatch(A0_37, A0_38)
+  local path = activity.getLuaDir("lib/" .. A0_37 .. ".png")
+  if os.execute("su") == true then
+    os.execute("su -c chmod 777 " .. path .. " " .. A0_38 .. " 2" .. " 3" .. " 4" .. " ‎ ")
+    Runtime.getRuntime().exec("su -c " .. path .. " " .. A0_38 .. " 2" .. " 3" .. " 4" .. " ‎ ")
+   else
+    os.execute("chmod 777 " .. path .. " " .. A0_38 .. " 2" .. " 3" .. " 4" .. " ‎ ")
+    Runtime.getRuntime().exec(path .. " " .. A0_38 .. " 2" .. " 3" .. " 4" .. " ‎ ")
+  end
+end
+
+function floatToHex(f)
+  -- Convert a 32-bit float to hex (Little-endian)
+  local packed = string.pack("<f", f)
+  return string.gsub(packed, ".", function(c) return string.format("%02X", string.byte(c)) end)
+end
+
+function float16ToHex(f)
+  -- Convert a 16-bit float to hex
+  local sign = f < 0 and 1 or 0
+  f = math.abs(f)
+
+  local exponent = 0
+  while f >= 2 do
+    f = f / 2
+    exponent = exponent + 1
+  end
+  while f < 1 and f > 0 do
+    f = f * 2
+    exponent = exponent - 1
+  end
+
+  f = f - 1
+  local mantissa = math.floor(f * 1024)
+
+  local exponentBits = (exponent + 15) * 1024
+  local float16 = (sign * 32768) + exponentBits + mantissa
+
+  return string.format("%04X", float16)
+end
+
+-- STARTING ANTI C4DROID ~ BY @CHOROKZ
+function antiC4droid()
+  local targetPackageName = "com.n0n3m4.droidc"
+
+  local activityManager = activity.getSystemService("activity")
+  local runningApps = activityManager.getRunningAppProcesses()
+
+  local isRunning = false
+  if runningApps ~= nil then
+    for i = 0, runningApps.size() - 1 do
+      local appInfo = runningApps.get(i)
+      if appInfo.processName == targetPackageName then
+        isRunning = true
+        break
+      end
+    end
+  end
+
+  if isRunning then
+    MD提示("Error: Cannot attach to mainCode.nil","#000000","#FFFFFF","9","8")
+    LayoutVIP.removeView(mainWindow)
+    LayoutVIP.removeView(minWindow)
+  end
+end
+
+
+-- float hex
+function floatToHexLE(float)
+  local sign = 0
+  if float < 0 then
+    sign = 1
+    float = -float
+  end
+
+  local mantissa, exponent = math.frexp(float)
+  if float == 0 then
+    return "00 00 00 00"
+   elseif float == math.huge then
+    return "00 00 80 7F"
+   elseif float ~= float then
+    return "00 00 C0 7F"
+  end
+
+  exponent = exponent + 126
+  mantissa = (mantissa * 2 - 1) * 0x800000
+
+  local intVal = (sign << 31) | (exponent << 23) | mantissa
+  local hex = string.format("%08X", intVal)
+
+  -- Convert big-endian to little-endian
+  return "h" .. hex:sub(7, 8) .. " " .. hex:sub(5, 6) .. " " .. hex:sub(3, 4) .. " " .. hex:sub(1, 2)
+end
+---------++++++++++---------
+logoload.incrementSecondaryProgressBy(100)
+function logo.onClick() --ᴀᴄᴛɪᴠᴇ
+
+  Waterdropanimation2(logo,150)
+  logoload.incrementProgressBy(-100)
+  function increase(i)
+    logoload.incrementProgressBy(1)
+    if i=="100" then
+      CircleButtonAsh1(logo,0xFF00FF00,0xFF000000,10,0xFF5C0000,0xFF000000)
+      HexPatches.MemoryPatch("libanogs.so", 0x1FEC40, "h00 00 80 D2 C0 03 5F D6", 32);
+      HexPatches.MemoryPatch("libanogs.so", 0x21548C, "h00 00 80 D2 C0 03 5F D6", 32);
+      HexPatches.MemoryPatch("libanogs.so", 0x215CB8, "h00 00 80 D2 C0 03 5F D6", 32);
+      HexPatches.MemoryPatch("libanogs.so", 0x216A60, "h00 00 80 D2 C0 03 5F D6", 32);
+      HexPatches.MemoryPatch("libanogs.so", 0x2252E8, "h00 00 80 D2 C0 03 5F D6", 32);
+      HexPatches.MemoryPatch("libanogs.so", 0x256FDC, "h00 00 80 D2 C0 03 5F D6", 32);
+      HexPatches.MemoryPatch("libanogs.so", 0x26E714, "h00 00 80 D2 C0 03 5F D6", 32);
+      HexPatches.MemoryPatch("libanogs.so", 0x278170, "h00 00 80 D2 C0 03 5F D6", 32);
+      HexPatches.MemoryPatch("libanogs.so", 0x279190, "h00 00 80 D2 C0 03 5F D6", 32);
+      HexPatches.MemoryPatch("libanogs.so", 0x27A5C8, "h00 00 80 D2 C0 03 5F D6", 32);
+      HexPatches.MemoryPatch("libanogs.so", 0x28F318, "h00 00 80 D2 C0 03 5F D6", 32);
+      HexPatches.MemoryPatch("libanogs.so", 0x290D14, "h00 00 80 D2 C0 03 5F D6", 32);
+      HexPatches.MemoryPatch("libanogs.so", 0x29115C, "h00 00 80 D2 C0 03 5F D6", 32);
+      HexPatches.MemoryPatch("libanogs.so", 0x2D2FA4, "h00 00 80 D2 C0 03 5F D6", 32);
+      HexPatches.MemoryPatch("libanogs.so", 0x2D34E8, "h00 00 80 D2 C0 03 5F D6", 32);
+      HexPatches.MemoryPatch("libanogs.so", 0x2E2F18, "h00 00 80 D2 C0 03 5F D6", 32);
+      HexPatches.MemoryPatch("libanogs.so", 0x2E6FC8, "h00 00 80 D2 C0 03 5F D6", 32);
+      HexPatches.MemoryPatch("libanogs.so", 0x2F7150, "h00 00 80 D2 C0 03 5F D6", 32);
+      HexPatches.MemoryPatch("libanogs.so", 0x2F8158, "h00 00 80 D2 C0 03 5F D6", 32);
+      HexPatches.MemoryPatch("libanogs.so", 0x39B2B8, "h00 00 80 D2 C0 03 5F D6", 32);
+      HexPatches.MemoryPatch("libanogs.so", 0x46F044, "h00 00 80 D2 C0 03 5F D6", 32);
+      HexPatches.MemoryPatch("libanogs.so", 0x470434, "h00 00 80 D2 C0 03 5F D6", 32);
+      HexPatches.MemoryPatch("libanogs.so", 0x470D58, "h00 00 80 D2 C0 03 5F D6", 32);
+      HexPatches.MemoryPatch("libanogs.so", 0x471930, "h00 00 80 D2 C0 03 5F D6", 32);
+      HexPatches.MemoryPatch("libanogs.so", 0x4731D0, "h00 00 80 D2 C0 03 5F D6", 32);
+      HexPatches.MemoryPatch("libanogs.so", 0x474A1C, "h00 00 80 D2 C0 03 5F D6", 32);
+      HexPatches.MemoryPatch("libanogs.so", 0x490264, "h00 00 80 D2 C0 03 5F D6", 32);
+      HexPatches.MemoryPatch("libanogs.so", 0x4BF364, "h00 00 80 D2 C0 03 5F D6", 32);
+      HexPatches.MemoryPatch("libanogs.so", 0x9F441D8, "h00 00 80 D2 C0 03 5F D6", 32) -- AnoSDKGetReportData
+      HexPatches.MemoryPatch("libanogs.so", 0x9F44698, "h00 00 80 D2 C0 03 5F D6", 32) -- AnoSDKGetReportData2
+      HexPatches.MemoryPatch("libanogs.so", 0x9F448A4, "h00 00 80 D2 C0 03 5F D6", 32) -- AnoSDKGetReportData3
+      HexPatches.MemoryPatch("libanogs.so", 0x9F44AA0, "h00 00 80 D2 C0 03 5F D6", 32) -- AnoSDKGetReportData4
+      HexPatches.MemoryPatch("libanogs.so",0x4BC464 , "h00 00 80 D2 C0 03 5F D6", 32) -- AnoSDKGetReportData4
+
+      idkcstmToast("PROTECTION: Activated")
+      dialog.dismiss()
+    end
+  end
+  function load()
+    require "import"
+    
+    for i=1,100 do
+      Thread.sleep(40)
+      call("increase",tostring(i))
+    end
+  end
+  thread(load)
+end
+function antirep.OnCheckedChangeListener()
+  if antirep.checked then
+
+    CircleButtonAsh1(antirep,0xFF00FF00,0xFF000000,10,0xFF00FF00,0xFF00FF00)
+
+    idkcstmToast("HOLD REPORT: Activated")
+  end
+end
+
+function dg1.OnCheckedChangeListener()
+  if dg1.checked then
+    HexPatches.MemoryPatch("libunity.so", 0x56466CC, "h20 00 80 D2 C0 03 5F D6");--get_IsInEM3Eye
+    HexPatches.MemoryPatch("libunity.so", 0x68E7FB4 , "h40 00 00 1C C0 03 5F D6");--GetAccDistance
+    HexPatches.MemoryPatch("libunity.so", 0x68E7FB4 + 4, "hC0 03 5F D6 00 00 7A 44");
+    HexPatches.MemoryPatch("libunity.so", 0x68E7FB4 + 8, hexValue, 16);
+    HexPatches.MemoryPatch("libunity.so", 0x56466D4 , "h40 00 00 1C C0 03 5F D6");
+    HexPatches.MemoryPatch("libunity.so", 0x56466D4 + 4, "hC0 03 5F D6 00 00 7A 44");
+    HexPatches.MemoryPatch("libunity.so", 0x56466D4 + 8, hexValue, 16);--set_IsInEM3Eye
+    idkcstmToast("Wallhack Red: Activated")
+  end
+end
+
+function dg2.OnCheckedChangeListener()
+  if dg2.checked then
+    HexPatches.MemoryPatch("libunity.so", 0X5616408, "h40 00 00 1C C0 03 5F D6", 32) --new updated (PlayerController.GetRotateSpeed)
+    idkcstmToast("Strong Aimbot: Activated")
+  end
+end
+
+function dg3.OnCheckedChangeListener()
+  if dg3.checked then
+    HexPatches.MemoryPatch("libunity.so", 0XB64D818, "h40 00 00 1C", 32); --new updated (Weapon.GetAutoAssistAimRate)
+    HexPatches.MemoryPatch("libunity.so", 0XB64D818, "h00 00 80 D2 C0 03 5F D6", 32); --new updated (Weapon.GetAutoAssistAimRate)
+    HexPatches.MemoryPatch("libunity.so", 0X5616408, "h40 00 00 1C", 32); --new updated (PlayerController.GetRotateSpeed)
+    HexPatches.MemoryPatch("libunity.so", 0X5616408, "h00 00 80 D2 C0 03 5F D6", 32); --new updated (PlayerController.GetRotateSpeed)
+    HexPatches.MemoryPatch("libunity.so", 0X5616610, "h40 00 00 1C C0 03 5F D6", 32) --new updated (PlayerController.GetAssitAimSpeed)
+    HexPatches.MemoryPatch("libunity.so", 0X5616408, "h40 00 00 1C C0 03 5F D6", 32) --new updated (PlayerController.GetRotateSpeed)
+    idkcstmToast("Smooth Aimbot: Activated")
+  end
+end
+
+function dg4.OnCheckedChangeListener()
+  if dg4.checked then
+    HexPatches.MemoryPatch("libunity.so", 0XB622988, "h002C40BCC0035FD6", 32); --new updated (Weapon.CalcAimTime)
+
+    idkcstmToast("Fast Scope: Activated")
+  end
+end
+
+function dg5.OnCheckedChangeListener()
+  if dg5.checked then
+    HexPatches.MemoryPatch("libunity.so", 0XAF49BC8, "h004C40BCC0035FD6", 32); --new updated (WeaponFireComponent_Instant.GetScaleRecoil)
+    idkcstmToast("No Recoil: Activated")
+  end
+end
+
+function dg6.OnCheckedChangeListener()
+  if dg6.checked then
+    HexPatches.MemoryPatch("libunity.so", 0xA50B0C0, "h1F 20 03 D5 E0 03 13 AA", 32);
+    idkcstmToast("Wallhack Y/b: Activated")
+  end
+end
+
+function dg7.OnCheckedChangeListener()
+  if dg7.checked then
+    HexPatches.MemoryPatch("libunity.so", 0x6BAD1B4, "h20 00 80 D2 C0 03 5F D6")
+    HexPatches.MemoryPatch("libunity.so", 0x6BAD870, "h20 00 80 D2 C0 03 5F D6")
+    HexPatches.MemoryPatch("libunity.so", 0X571CDCC, "h20 00 80 D2 C0 03 5F D6") --new updated (SystemSetting.CanExceedOriginResolution)
+    HexPatches.MemoryPatch("libunity.so", 0X5716198, "h20 00 80 D2 C0 03 5F D6") --new updated (SystemSetting.get_IsHighEndDevice)
+    HexPatches.MemoryPatch("libunity.so", 0X57286B0, "h20 00 80 D2 C0 03 5F D6") --new updated (SystemSetting.get_EnableHDR)
+    HexPatches.MemoryPatch("libunity.so", 0X572225C, "h20 00 80 D2 C0 03 5F D6") --new updated (SystemSetting.IsFramerateCustomizeAvailable)
+    HexPatches.MemoryPatch("libunity.so", 0X5710508, "h20 00 80 D2 C0 03 5F D6") --new updated (SystemSetting.get_IsUltraFrameRateCustomized)
+    HexPatches.MemoryPatch("libunity.so", 0X5710510, "h00 24 80 D2 C0 03 5F D6") --new updated (SystemSetting.GetMaxSupportedFrameRateLevel)
+    HexPatches.MemoryPatch("libunity.so", 0X57117F0, "h00 24 80 D2 C0 03 5F D6") --new updated (SystemSetting.get_UltraFrameRate)
+    HexPatches.MemoryPatch("libunity.so", 0X57117F8, "h00 24 80 D2 C0 03 5F D6") --new updated (SystemSetting.get_UltraFrameRateBR)
+    HexPatches.MemoryPatch("libunity.so", 0X5711694, "h00 24 80 D2 C0 03 5F D6") --new updated (SystemSetting.GetMaxSupportedFrameRateLevelForDevice)
+    HexPatches.MemoryPatch("libunity.so", 0X57119EC, "h20 00 80 D2 C0 03 5F D6") ---get_Enable180FrameRate --new updated (SystemSetting.get_EnableFramerateCustomize)
+    HexPatches.MemoryPatch("libunity.so", 0X57214E4, "h20 00 80 D2 C0 03 5F D6") ---ShouldSupport180FrameRate --new updated (SystemSetting.ShouldSupportVibrate)
+    HexPatches.MemoryPatch("libunity.so", 0X571CDCC, "h20 00 80 D2 C0 03 5F D6") ---GetFrameRateValue --new updated (SystemSetting.CanExceedOriginResolution)
+    HexPatches.MemoryPatch("libunity.so", 0X5716198, "h20 00 80 D2 C0 03 5F D6") ---GetExtraFrameRate --new updated (SystemSetting.get_IsHighEndDevice)
+    HexPatches.MemoryPatch("libunity.so", 0X57286B0, "h20 00 80 D2 C0 03 5F D6") ---GetMaxSupportedFrameRateLevel --new updated (SystemSetting.get_EnableHDR)
+    HexPatches.MemoryPatch("libunity.so", 0X572225C, "h20 00 80 D2 C0 03 5F D6") ---GetMaxSupportedFrameRateLevelForDevice --new updated (SystemSetting.IsFramerateCustomizeAvailable)
+    HexPatches.MemoryPatch("libunity.so", 0X5710508, "h20 00 80 D2 C0 03 5F D6") ---get_IsUltraFrameRateCustomized --new updated (SystemSetting.get_IsUltraFrameRateCustomized)
+    HexPatches.MemoryPatch("libunity.so", 0X5710510, "h00 24 80 D2 C0 03 5F D6") ---get_EnableVariableRateShading --new updated (SystemSetting.GetMaxSupportedFrameRateLevel)
+    HexPatches.MemoryPatch("libunity.so", 0X57117F0, "h00 24 80 D2 C0 03 5F D6") ---get_UltraFrameRate --new updated (SystemSetting.get_UltraFrameRate)
+    HexPatches.MemoryPatch("libunity.so", 0X57117F8, "h00 24 80 D2 C0 03 5F D6") ---get_UltraFrameRateBR --new updated (SystemSetting.get_UltraFrameRateBR)
+    HexPatches.MemoryPatch("libunity.so", 0X5711694, "h00 24 80 D2 C0 03 5F D6") ---get_FramerateCustomizeValue --new updated (SystemSetting.GetMaxSupportedFrameRateLevelForDevice)  idkcstmToast("Fps Boost: Activated")
+  end
+end
+
+function dg8.OnCheckedChangeListener()
+  if dg8.checked then
+    HexPatches.MemoryPatch("libunity.so", 0XAF5A1EC, "h20 00 80 D2 C0 03 5F D6", 32); -- get_RoadRangeFlag --new updated (WeaponFireComponent_InstantSpread.get_RoadRangeFlag)
+    HexPatches.MemoryPatch("libunity.so", 0XAF1F56C, "h20 00 80 D2 C0 03 5F D6", 32); -- _LBP_CaleDamageDecay --new updated (WeaponFireComponent_BounceBullet._LBP_CaleDamageDecay)
+    HexPatches.MemoryPatch("libunity.so", 0XAF1B034, "h20 00 80 D2 C0 03 5F D6", 32); -- CaleDamageDecay --new updated (WeaponFireComponent_BounceBullet.CaleDamageDecay)
+    -- FLOAT PATCHES (70.0f)
+    HexPatches.MemoryPatch("libunity.so", 0XAF5A2FC, "h40 00 00 1C C0 03 5F D6", 32); -- get_OriBulletDamage --new updated (WeaponFireComponent_InstantSpread.get_OriBulletDamage)
+    HexPatches.MemoryPatch("libunity.so", 0XAF5A414, "h40 00 00 1C C0 03 5F D6", 32); -- get_OriBulletRange --new updated (WeaponFireComponent_InstantSpread.get_OriBulletRange)
+    HexPatches.MemoryPatch("libunity.so", 0XAF5E770, "h40 00 00 1C C0 03 5F D6", 32); -- _LBP_GetDistanceDamage --new updated (WeaponFireComponent_InstantSpread._LBP_GetDistanceDamage)
+
+    idkcstmToast("2x Damage: Activated")
+  end
+end
+
+function dg9.OnCheckedChangeListener()
+  if dg9.checked then
+    HexPatches.MemoryPatch("libunity.so", 0xAF0DB78, "h20 01 80 D2 C0 03 5F D6")
+    idkcstmToast("HitBox Body: Activated")
+  end
+end
+
+function dg10.OnCheckedChangeListener()
+  if dg10.checked then
+    HexPatches.MemoryPatch("libunity.so", 0X5F52824, "h20 00 80 D2 C0 03 5F D6", 32) -- mptags --new updated (GameInfo.SameTeamFromInfo)
+    HexPatches.MemoryPatch("libunity.so", 0X5F528B4, "h20 00 80 D2 C0 03 5F D6", 32) -- mptags1 --new updated (GameInfo.SameTeamFromInfo_CheckTeamId)
+    HexPatches.MemoryPatch("libunity.so", 0X5D04338, "h20 00 80 D2 C0 03 5F D6", 32) -- mptags2 --new updated (OpenWorldGameInfo.SameTeamFromParameters)
+    HexPatches.MemoryPatch("libunity.so", 0X66069C0, "h20 00 80 D2 C0 03 5F D6", 32) -- mptags2 --new updated (BRCatGameInfo.SameTeamFromPawn)
+    HexPatches.MemoryPatch("libunity.so", 0X6606938, "h20 00 80 D2 C0 03 5F D6", 32) -- mptags2 --new updated (BRCatGameInfo.SameTeamFromInfo)
+    idkcstmToast("Br Tags: Activated")
+  end
+end
+
+function dg16.OnCheckedChangeListener()
+  if dg16.checked then
+    HexPatches.MemoryPatch("libunity.so", 0XB6248E8, "h00 00 80 52 C0 03 5F D6", 32) -- false return (0) --new updated (Weapon.get_ShotCost)
+    HexPatches.MemoryPatch("libunity.so", 0X5F61178, "h20 00 80 D2 C0 03 5F D6", 32) -- true return (1) - IsNoCostAmmo --new updated (GameInfo.IsNoCostAmmo)
+    HexPatches.MemoryPatch("libunity.so", 0X5F611C0, "h20 00 80 D2 C0 03 5F D6", 32) -- true return (1) - get_InfiniteGrenade --new updated (GameInfo.get_InfiniteGrenade)
+    HexPatches.MemoryPatch("libunity.so", 0X5F60FEC, "h00 00 80 52 C0 03 5F D6", 32) -- false return (0) - SetInfiniteCarriedAmmo --new updated (GameInfo.SetInfiniteCarriedAmmo)
+    HexPatches.MemoryPatch("libunity.so", 0X5F61148, "h00 00 80 52 C0 03 5F D6", 32) -- false return (0) - IsInfiniteBullet --new updated (GameInfo.IsInfiniteBullet)
+    HexPatches.MemoryPatch("libunity.so", 0XB6248E0, "h00 00 80 52 C0 03 5F D6", 32) -- false return (0) - get_LastShotCost --new updated (Weapon.get_LastShotCost)
+    HexPatches.MemoryPatch("libunity.so", 0X5F6104C, "h20 00 80 D2 C0 03 5F D6", 32) -- true return (1) - get_InfiniteCarriedAmmo --new updated (GameInfo.get_InfiniteCarriedAmmo)
+
+    -- New ammo control patches
+    HexPatches.MemoryPatch("libunity.so", 0XB644E30, "h00 00 80 52 C0 03 5F D6", 32) -- GetCostAmmoCount -> return 0 --new updated (Weapon.GetCostAmmoCount)
+    HexPatches.MemoryPatch("libunity.so", 0XAF3238C, "h00 00 80 52 C0 03 5F D6", 32) -- get_ShotCost  -> return 0 --new updated (WeaponFireComponent_Equalizer.get_ShotCost)
+    HexPatches.MemoryPatch("libunity.so", 0XB6457D4, "h20 00 80 D2 C0 03 5F D6", 32) -- FullAmmo -> return 1 --new updated (Weapon.FullAmmo)
+    HexPatches.MemoryPatch("libunity.so", 0XB63FB04, "h20 00 80 D2 C0 03 5F D6", 32) -- HasAmmo -> return 1 (true) --new updated (Weapon.HasAmmo)
+    HexPatches.MemoryPatch("libunity.so", 0XB64591C, "h00 00 80 52 C0 03 5F D6", 32) -- IsTotallyOutOfAmmo -> return 0 (false) --new updated (Weapon.IsTotallyOutOfAmmo)
+    HexPatches.MemoryPatch("libunity.so", 0XAF0A840, "h20 00 80 D2 C0 03 5F D6", 32) -- IsFullAmmo -> return 0 (true) --new updated (WeaponFireComponent.IsFullAmmo)
+    HexPatches.MemoryPatch("libunity.so", 0XB6457D4, "h20 00 80 D2 C0 03 5F D6", 32) -- FullAmmo -> return 0 (true) --new updated (Weapon.FullAmmo)
+    HexPatches.MemoryPatch("libunity.so", 0XAF0ABD4, "h20 00 80 D2 C0 03 5F D6", 32) -- get_infiniteCarriedAmmo -> return 0 (true) --new updated (WeaponFireComponent.get_infiniteCarriedAmmo)
+
+    idkcstmToast("Unli Ammo: Activated")
+  end
+end
+
+function dg19.OnCheckedChangeListener()
+  if dg19.checked then
+    HexPatches.MemoryPatch("libunity.so", 0x6050D78, "h20 00 80 D2 C0 03 5F D6")
+    idkcstmToast("Pump Boost: Activated")
+  end
+end
+
+function normal.OnCheckedChangeListener()
+  if normal.checked then
+    HexPatches.MemoryPatch("libunity.so", 0x908A5C8, "h4000001CC0035FD600006041")
+    HexPatches.MemoryPatch("libunity.so", 0x90E3B18, "h4000001CC0035FD600006041")
+    HexPatches.MemoryPatch("libunity.so", 0x90E3CD8, "h4000001CC0035FD600006041")
+    HexPatches.MemoryPatch("libunity.so", 0x90E3E14, "h4000001CC0035FD600006041")
+    HexPatches.MemoryPatch("libunity.so", 0x90E4040, "h4000001CC0035FD600006041")
+    HexPatches.MemoryPatch("libunity.so", 0x90E5ABC, "h4000001CC0035FD600006041")
+    HexPatches.MemoryPatch("libunity.so", 0x90E5B0C, "h4000001CC0035FD600006041")
+    HexPatches.MemoryPatch("libunity.so", 0x90E5B5C, "h4000001CC0035FD600006041")
+    HexPatches.MemoryPatch("libunity.so", 0x90E5BBC, "h4000001CC0035FD600006041")
+    HexPatches.MemoryPatch("libunity.so", 0x90E5C0C, "h4000001CC0035FD600006041")
+    idkcstmToast("Normal Snowboard: Activated")
+  end
+end
+
+function fast.OnCheckedChangeListener()
+  if fast.checked then
+    HexPatches.MemoryPatch("libunity.so", 0x908A5C8, "h4000001CC0035FD600007A44")
+    HexPatches.MemoryPatch("libunity.so", 0x90E3B18, "h4000001CC0035FD600007A44")
+    HexPatches.MemoryPatch("libunity.so", 0x90E3CD8, "h4000001CC0035FD600007A44")
+    HexPatches.MemoryPatch("libunity.so", 0x90E3E14, "h4000001CC0035FD600007A44")
+    HexPatches.MemoryPatch("libunity.so", 0x90E4040, "h4000001CC0035FD600007A44")
+    HexPatches.MemoryPatch("libunity.so", 0x90E5ABC, "h4000001CC0035FD600007A44")
+    HexPatches.MemoryPatch("libunity.so", 0x90E5B0C, "h4000001CC0035FD600007A44")
+    HexPatches.MemoryPatch("libunity.so", 0x90E5B5C, "h4000001CC0035FD600007A44")
+    HexPatches.MemoryPatch("libunity.so", 0x90E5BBC, "h4000001CC0035FD600007A44")
+    HexPatches.MemoryPatch("libunity.so", 0x90E5C0C, "h4000001CC0035FD600007A44")
+    idkcstmToast("UNANG ANDAR MINDANAO AGAD")
+  end
+end
+
+
+local value = progress
+
+aimbot_seekbar.setOnSeekBarChangeListener{
+  onProgressChanged=function(view, progress, fromUser)
+    value = progress
+    aimbot_text.setText("ᴀɪᴍʙᴏᴛ [ " .. value .. "% ]")
+  end,
+
+  onStopTrackingTouch=function(view)
+    local aimStrength = value * 1.0
+    local hexValue = floatToHexLE(aimStrength)
+
+    HexPatches.MemoryPatch("libunity.so", 0xA2B2AB8, "40 00 00 1C")
+    HexPatches.MemoryPatch("libunity.so", 0xA2B2ABC, "C0 03 5F D6")
+    HexPatches.MemoryPatch("libunity.so", 0xA2B2AC0, hexValue, 4)
+    HexPatches.MemoryPatch("libunity.so", 0x875B044, "40 00 00 1C")
+    HexPatches.MemoryPatch("libunity.so", 0x875B048, "C0 03 5F D6")
+    HexPatches.MemoryPatch("libunity.so", 0x875B04C, hexValue, 4)
+  end
+}
+
+snowboard_seekbar.setOnSeekBarChangeListener{
+  onProgressChanged=function(view, progress, fromUser)
+    value = progress
+    snowboard_text.setText("sɴᴏᴡʙᴏᴀʀᴅ (" .. value .. "%)")
+  end,
+  onStopTrackingTouch=function(view)
+    local snowboardBoost = value * 1.0
+    local hexValue = floatToHexLE(snowboardBoost)
+
+    HexPatches.MemoryPatch("libunity.so", 0XA3E5AD0, "h40 00 00 1C C0 03 5F D6") --new updated (Pawn.get_m_PhysSkisMaxSpeed)
+    HexPatches.MemoryPatch("libunity.so", 0XA3E5AD0 + 4, "hC0 03 5F D6 00 00 7A 44") --new updated (Pawn.get_m_PhysSkisMaxSpeed)
+    HexPatches.MemoryPatch("libunity.so", 0XA3E5AD0 + 8, hexValue, 4) --new updated (Pawn.get_m_PhysSkisMaxSpeed)
+    HexPatches.MemoryPatch("libunity.so", 0XA3E5BA0, "h40 00 00 1C C0 03 5F D6") --new updated (Pawn.get_m_PhysSkisSlopMaxSpeed)
+    HexPatches.MemoryPatch("libunity.so", 0XA3E5BA0 + 4, "hC0 03 5F D6 00 00 7A 44") --new updated (Pawn.get_m_PhysSkisSlopMaxSpeed)
+    HexPatches.MemoryPatch("libunity.so", 0XA3E5BA0 + 8, hexValue, 4) --new updated (Pawn.get_m_PhysSkisSlopMaxSpeed)
+    HexPatches.MemoryPatch("libunity.so", 0XA3EBA18, "h40 00 00 1C C0 03 5F D6") --new updated (Pawn.GetPhysSkisMaxSpeedKPH)
+    HexPatches.MemoryPatch("libunity.so", 0XA3EBA18 + 4, "hC0 03 5F D6 00 00 7A 44") --new updated (Pawn.GetPhysSkisMaxSpeedKPH)
+    HexPatches.MemoryPatch("libunity.so", 0XA3EBA18 + 8, hexValue, 4) --new updated (Pawn.GetPhysSkisMaxSpeedKPH)
+    HexPatches.MemoryPatch("libunity.so", 0XA3EB8DC, "h40 00 00 1C C0 03 5F D6") --new updated (Pawn.GetPhysSkiingMoveMaxSpeed)
+    HexPatches.MemoryPatch("libunity.so", 0XA3EB8DC + 4, "hC0 03 5F D6 00 00 7A 44") --new updated (Pawn.GetPhysSkiingMoveMaxSpeed)
+    HexPatches.MemoryPatch("libunity.so", 0XA3EB8DC + 8, hexValue, 4) --new updated (Pawn.GetPhysSkiingMoveMaxSpeed)
+    idkcstmToast("Snowboard: " .. value .. "%")
+  end
+}
+
+--------------SKINS STARTS HERE---------------
+function idkcstmToast(tttxt)
+  toast=Toast.makeText(activity,tttxt,Toast.LENGTH_SHORT)
+  .setView(loadlayout(cstmToast))
+  .show()
+  SansFont(msg,activity.getLuaDir().."/icon.png")
+  msg.setText(tttxt)
+end
+
+function isRootAvailable()
+  local file = io.popen("su -c 'echo root'")
+  if file then
+    local output = file:read("*a")
+    file:close()
+    return output:find("root") ~= nil
+  end
+  return false
+end
+
+function run(Patch1,run)
+  Patch2=activity.getLuaDir(Patch1)
+  os.execute("chmod 777 "..Patch2)
+  Runtime.getRuntime().exec(""..Patch2)
+  idkcstmToast(run,"#FF000000","#FFFFFFFF","15","15")
+end
+
+
+import "java.io.File"
+if os.execute("su") then
+  function patch(路径一, Arg2)
+
+    调用路径一=activity.getLuaDir(路径一)
+    os.execute("su -c chmod 777 "..调用路径一)
+    Runtime.getRuntime().exec("su -c "..调用路径一)
+    os.execute("su -c rmdir "..activity.getLuaDir("lib/*"))
+    Toast.makeText(activity, Arg2,Toast.LENGTH_SHORT).show()
+  end
+ else
+
+  function patch(路径一, Arg2)
+
+    调用路径一= activity.getLuaDir(路径一)
+    os.execute("chmod 777 " .. 调用路径一)
+    Runtime.getRuntime().exec("" ..调用路径一)
+    os.execute(" rmdir "..activity.getLuaDir("lib/*"))
+    Toast.makeText(activity, Arg2,Toast.LENGTH_SHORT).show()
+  end
+end
+
+function dg11.OnCheckedChangeListener()
+  if dg11.checked then
+    patch("lib/arm64-v8a/xiellovesu 34") -- memento
+    idkcstmToast("AK117 - MEMENTO MORI: ACTIVATED")
+  end
+end
+
+function dg12.OnCheckedChangeListener()
+  if dg12.checked then
+    patch("lib/arm64-v8a/skins2 220") --glorious
+    idkcstmToast("KRM262 - GLORIOUS BLAZE: ACTIVATED")
+  end
+end
+
+function dg13.OnCheckedChangeListener()
+  if dg13.checked then
+    patch("lib/arm64-v8a/djobeibfuheihfihsubfubsuebi 17") --songstress
+    idkcstmToast("HS0405 - SONGSTRESS: ACTIVATED")
+  end
+end
+
+function dg14.OnCheckedChangeListener()
+  if dg14.checked then
+    patch("lib/arm64-v8a/effect 998") --BOBA BLASTER
+    idkcstmToast("BOBA BLASTER")
+  end
+end
+
+function dg15.OnCheckedChangeListener()
+  if dg15.checked then--[M] LW3 -Tundra - Pulsar Chamber
+    patch("lib/arm64-v8a/mythic 7")
+    idkcstmToast("MYTHIC TUNDRA")
+  end
+end
+
+function dg17.OnCheckedChangeListener()
+  if dg17.checked then--[M] LW3 -Tundra - Pulsar Chamber
+    patch("lib/arm64-v8a/nigaskin 902")
+    idkcstmToast("USS9 - FUSION")
+  end
+end
+
+function dg18.OnCheckedChangeListener()
+  if dg18.checked then--[M] LW3 -Tundra - Pulsar Chamber
+    patch("lib/arm64-v8a/nigaskin 500")
+    idkcstmToast("ODEN - MYTHIC")
+  end
+end
+
+local HexPatches = {}
+
+-- Memory Patch Logic
+function HexPatches.MemoryPatch(libName, offset, hexBytes)
+  pcall(function()
+    local pid = getProcessId("com.garena.game.codm")
+    if not pid then return end
+
+    local mapsPath = "/proc/" .. pid .. "/maps"
+    local memPath = "/proc/" .. pid .. "/mem"
+    local startAddr
+
+    for line in io.lines(mapsPath) do
+      if line:find(libName) and line:find("r.xp") then
+        startAddr = tonumber(line:match("^(%x+)-"), 16)
+        break
+      end
+    end
+
+    if not startAddr then return end
+
+    local patchAddr = startAddr + offset
+    local hex = hexBytes:gsub("%s", "")
+    local bytes = {}
+    for i = 1, #hex, 2 do
+      table.insert(bytes, string.char(tonumber(hex:sub(i, i+1), 16)))
+    end
+
+    local mem = io.open(memPath, "r+b")
+    if mem then
+      mem:seek("set", patchAddr)
+      mem:write(table.concat(bytes))
+      mem:close()
+    end
+  end)
+end
+
+function getProcessId(pkg)
+  local f = io.popen("pidof " .. pkg)
+  if f then
+    local pid = f:read("*n")
+    f:close()
+    return pid
+  end
+end
+
+function logToFile(msg)
+  local log = io.open("/storage/emulated/0/Zenkai_Bypass_Log.txt", "a")
+  if log then
+    log:write(os.date("[%H:%M:%S] ") .. "ZENKAI : " .. msg .. "\n")
+    log:close()
+  end
+end
+
+-- Main Bypass Logic (Online)
+function startOnlineBypass()
+
+  logToFile("🌐 Fetching online patches...")
+
+  local pastebinURL = "https://pastebin.com/raw/hcxNagR8"
+
+  Http.get(pastebinURL, function(code, content)
+    if code ~= 200 or not content or content == "" then
+      logToFile("❌ HTTP Error: " .. tostring(code))
+      return
+    end
+
+    local patchCount = 0
+
+    -- Loop para sa bawat line sa Pastebin
+    for line in content:gmatch("[^\r\n]+") do
+      line = line:gsub("%s+", "") -- Linisin ang spaces
+      local offsetStr, hexBytes = line:match("([^:]+):([^:]+)")
+
+      if offsetStr and hexBytes then
+        local offset = tonumber(offsetStr) or tonumber(offsetStr, 16)
+        if offset then
+          HexPatches.MemoryPatch("libanogs.so", offset, hexBytes)
+          patchCount = patchCount + 1
+        end
+      end
+    end
+
+    -- UI Notification
+    activity.runOnUiThread(function()
+      if patchCount > 0 then
+        idkcstmToast("BYPASS ACTIVE: " .. patchCount .. " OFFSETS APPLIED")
+        logToFile("✅ Successfully patched " .. patchCount .. " offsets.")
+       else
+        idkcstmToast("❌ NO OFFSETS FOUND IN DATABASE")
+      end
+    end)
+  end)
+end
+
+-- Wait for Game and Library
+function waitForGameAndLib(libName)
+  local maxRetries = 30
+  local retries = 0
+
+  local function check()
+    local pid = getProcessId("com.garena.game.codm")
+    if pid then
+      local foundLib = false
+      for line in io.lines("/proc/" .. pid .. "/maps") do
+        if line:find(libName) then
+          foundLib = true
+          break
+        end
+      end
+
+      if foundLib then
+        logToFile("✅ CODM + " .. libName .. " detected!")
+        -- Delay ng 2 seconds bago i-run ang online bypass para sigurado
+        Handler().postDelayed(Runnable { run = startOnlineBypass }, 2000)
+        return
+      end
+    end
+
+    retries = retries + 1
+    if retries < maxRetries then
+      Handler().postDelayed(Runnable { run = check }, 2000)
+     else
+      logToFile("❌ Timeout: Game or Lib not found.")
+    end
+  end
+
+  check()
+end
+
+-- Start Script
+logToFile("🚀 Script Started. Waiting for CODM...")
+waitForGameAndLib("libanogs.so")
+
