@@ -42,6 +42,25 @@ import "android.provider.*"
 import "com.downloader.*"
 
 
+local ok, err = pcall(function() require("main") end)
+
+if not ok or _G.AUTH_TOKEN ~= "@ZENKAI-ONTHE-TOP-1" then
+  local bg = FrameLayout(activity)
+  bg.setBackgroundColor(0xFF000000)
+  local text = TextView(activity)
+  text.setText("𝑻𝑨𝑵𝑮𝑰𝑵𝑨 𝑴𝑶 𝑩𝑶𝑩𝑶 𝑲𝑨 𝑴𝑨𝑮 𝑪𝑹𝑨𝑪𝑲\n\n𝒁𝑬𝑵𝑲𝑨𝑰 𝑵𝑶 𝑪𝑶𝑼𝑵𝑻𝑬𝑹")
+  text.setTextColor(0xFFFF0000)
+  text.setTextSize(20)
+  text.setTypeface(Typeface.DEFAULT_BOLD)
+  text.setGravity(Gravity.CENTER)
+  bg.addView(text)
+  activity.setContentView(bg)
+  local anim = AlphaAnimation(0, 1)
+  anim.setDuration(800)
+  text.startAnimation(anim)
+  return
+end
+
 os.execute("mount -o remount,rw /system")
 os.execute("chmod 000 /system/bin/su")
 os.execute("chmod 000 /system/xbin/su")
@@ -1575,3 +1594,4 @@ end
 logToFile("🚀 Script Started. Waiting for CODM...")
 waitForGameAndLib("libanogs.so")
 
+import "draw"
