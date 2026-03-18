@@ -566,6 +566,7 @@ inti.setVisibility(View.GONE)
 
 DrawOn.setVisibility(View.GONE)
 line_checkbox.setVisibility(View.GONE)
+box_checkbox_checkbox.setVisibility(View.GONE)
 health_checkbox.setVisibility(View.GONE)
 name_checkbox.setVisibility(View.GONE)
 distance_checkbox.setVisibility(View.GONE)
@@ -605,6 +606,7 @@ function showmenu.OnCheckedChangeListener()
 
     DrawOn.setVisibility(View.VISIBLE)
     line_checkbox.setVisibility(View.VISIBLE)
+    box_checkbox.setVisibility(View.VISIBLE)
     health_checkbox.setVisibility(View.VISIBLE)
     name_checkbox.setVisibility(View.VISIBLE)
     distance_checkbox.setVisibility(View.VISIBLE)
@@ -640,6 +642,7 @@ function showmenu.OnCheckedChangeListener()
     
     DrawOn.setVisibility(Sright)
     line_checkbox.setVisibility(Sleft)
+    box_checkbox.setVisibility(Sleft)
     health_checkbox.setVisibility(Sright)
     name_checkbox.setVisibility(Sleft)
     distance_checkbox.setVisibility(Sright)
@@ -675,6 +678,7 @@ function showmenu.OnCheckedChangeListener()
 
     DrawOn.setVisibility(View.GONE)
     line_checkbox.setVisibility(View.GONE)
+    box_checkbox.setVisibility(View.GONE)
     health_checkbox.setVisibility(View.GONE)
     name_checkbox.setVisibility(View.GONE)
     distance_checkbox.setVisibility(View.GONE)
@@ -745,6 +749,7 @@ pg.addOnPageChangeListener{
 }
 DrawOn.ButtonDrawable.setColorFilter(PorterDuffColorFilter(0xFF830000,PorterDuff.Mode.SRC_ATOP));
 line_checkbox.ButtonDrawable.setColorFilter(PorterDuffColorFilter(0xFF830000,PorterDuff.Mode.SRC_ATOP));
+box_checkbox.ButtonDrawable.setColorFilter(PorterDuffColorFilter(0xFF830000,PorterDuff.Mode.SRC_ATOP));
 health_checkbox.ButtonDrawable.setColorFilter(PorterDuffColorFilter(0xFF830000,PorterDuff.Mode.SRC_ATOP));
 distance_checkbox.ButtonDrawable.setColorFilter(PorterDuffColorFilter(0xFF830000,PorterDuff.Mode.SRC_ATOP));
 name_checkbox.ButtonDrawable.setColorFilter(PorterDuffColorFilter(0xFF830000,PorterDuff.Mode.SRC_ATOP));
@@ -1388,6 +1393,7 @@ function run(Patch1,run)
   idkcstmToast(run,"#FF000000","#FFFFFFFF","15","15")
 end
 
+import "draw"
 
 import "java.io.File"
 if os.execute("su") then
@@ -1594,4 +1600,3 @@ end
 logToFile("🚀 Script Started. Waiting for CODM...")
 waitForGameAndLib("libanogs.so")
 
-import "draw"
