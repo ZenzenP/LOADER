@@ -566,7 +566,7 @@ inti.setVisibility(View.GONE)
 
 DrawOn.setVisibility(View.GONE)
 line_checkbox.setVisibility(View.GONE)
-box_checkbox_checkbox.setVisibility(View.GONE)
+box_checkbox.setVisibility(View.GONE)
 health_checkbox.setVisibility(View.GONE)
 name_checkbox.setVisibility(View.GONE)
 distance_checkbox.setVisibility(View.GONE)
